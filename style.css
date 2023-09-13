@@ -71,14 +71,24 @@ h1, h2, h3 {
 	padding: 1em;
 	font-size: 125%;
 }
+/* Specificity: 010 */
 .tab-container > * {
 	border: 2px solid #5f4026;
 	padding: 0.5em 2em;
 	background-color: #ecb587;
-	/* font-weight: bold; */
+	border-top-right-radius: 1em;
+	border-top-left-radius: 0.25em;
 }
 .selected {
 	background-color: #cb6938;
 	position: relative;
-	bottom: 0.5em;
+	bottom: -0.6em;
+}
+/* Specificity: 020 */
+.tab-container > .content {
+	grid-column: span 4;
+	background-color: #cb6938;
+	border-radius: 0.25em;
+	height: 5em;
+	margin-top: 0.2em;
 }
