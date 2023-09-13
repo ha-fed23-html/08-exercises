@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 1em;
+	background-color: rgb(202, 215, 230);
+}
+h1, h2, h3 {
+	margin: 0.3em 0;
+}
+
+.framed {
+	border: 2px solid rgb(2, 20, 30);
+	border-radius: 0.4em;
+	padding: 0.6em;
+}
