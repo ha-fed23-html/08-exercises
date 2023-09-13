@@ -92,3 +92,35 @@ h1, h2, h3 {
 	height: 5em;
 	margin-top: 0.2em;
 }
+
+
+/* Övning 6.5 */
+.menu-example {
+	background-color: rgb(175, 214, 190);
+	padding: 0.5em;
+}
+.menu-container {
+	display: flex;
+}
+.menu-container > * {
+	margin: 0 0.6em;
+	border-radius: 0.3em;
+}
+.menu-container > *, .menu > li {
+	position: relative;
+	background-color: rgb(121, 170, 121);
+	border: 2px solid rgb(58, 122, 79);
+	padding: 0.5em 1.4em;
+}
+
+.menu {
+	position: absolute;
+	list-style: none;
+	padding: 0;
+	left: -0.1em;
+	top: 1.25em;
+}
+.menu > li {
+	margin: 0;
+	border-top: none;
+}
